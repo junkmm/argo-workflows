@@ -96,7 +96,7 @@ This example creates a `ConfigMap` resource on the cluster:
 
 ##### [Suspend](fields.md#suspendtemplate)
 
-A suspend template will suspend execution, either for a duration or until it is resumed manually. Suspend templates can be resumed from the CLI (with `argo resume`), the API endpoint<!-- TODO: LINK -->, or the UI.
+A suspend template will suspend execution, either for a duration or until it is resumed manually. Suspend templates can be resumed from the CLI (with `argo resume`), [the API endpoint](swagger.md)(on WorkflowService resume(PUT)), or the UI.
 
 Example:
 
